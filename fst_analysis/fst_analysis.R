@@ -1,5 +1,5 @@
 # =========================================================
-# FST Analysis – Selection Signatures in Goat Populations
+# FST Analysis – Selection Signatures in Populations
 # Author: Tatiana Ziegler
 # =========================================================
 
