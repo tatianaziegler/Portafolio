@@ -10,7 +10,7 @@ library(ggplot2)
 # 1. LOAD DATA
 # ------------------------------------------------------------
 FROH_chrF <- read.csv("FROH_CHROMOSOMEF.txt")
-FROH_chrCRA <- read.csv("FROH_CHROMOSOMECRA.txt")
+FROH_chrpop1 <- read.csv("FROH_CHROMOSOMEpop1.txt")
 
 # ------------------------------------------------------------
 # 2. FUNCTION TO SUMMARIZE FROH
