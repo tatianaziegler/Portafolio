@@ -1,53 +1,75 @@
-# Portafolio
-Bioinformatics projects demonstrating experience in population genetics, genomic data analysis, and reproducible research workflows
-# Bioinformatics Portfolio – Tatiana Ziegler
+# Genomic Data Analysis Portfolio
 
-## 👩‍🔬 About Me
-I am a PhD researcher in Animal Genomics with experience in population genetics, genomic data analysis, and livestock breeding systems.
+## 👩‍🔬 Tatiana Ziegler, PhD
 
-My work focuses on analyzing genetic variation and detecting selection signatures using SNP data and R-based workflows.
+Population Genomics | Bioinformatics | Livestock Genetics
 
 ---
 
-## 🧬 What this portfolio contains
+## 📌 Overview
 
-This repository showcases applied bioinformatics projects, including:
+This repository contains a collection of genomic data analysis projects developed using real SNP datasets from livestock populations.
 
-- Runs of Homozygosity (ROH) analysis  
-- Genetic differentiation using FST  
-- Population structure analysis (PCA)  
-- Genomic data visualization
+The main goal of this portfolio is to demonstrate practical experience in:
+- Population structure analysis
+- Genetic differentiation and selection signatures
+- Runs of Homozygosity (ROH) and inbreeding estimation
+- Data visualization and reproducible genomic workflows
 
-Each project is organized in a reproducible and structured way.
-
----
-
-## 🧪 Skills demonstrated
-
-- Population genetics (FST, ROH, PCA)
-- SNP data analysis (VCF, PLINK formats)
-- R programming for bioinformatics
-- Data visualization with ggplot2
-- Reproducible research workflows
+All analyses are implemented in R and based on standard bioinformatics tools used in population and animal genetics.
 
 ---
 
-## 📂 Project structure
+## 🧬 Projects included
 
-Each folder contains:
-- Scripts
-- Results
-- Figures
-- Documentation
+### 1. FST Analysis (Selection Signatures)
+Folder: `fst_analysis/`
 
----
-
-## 🎯 Motivation
-
-I am currently transitioning into applied bioinformatics roles and seeking opportunities where I can apply my expertise in genomics, data analysis, and computational biology.
+- Calculation of genome-wide FST between POP1 and POP2
+- SNP-level differentiation analysis
+- Manhattan plot of selection signals
+- Identification of highly differentiated loci
 
 ---
 
-## 📫 Contact
-Tatiana Ziegler, PhD  
-Animal Genomics | Population Genetics | Livestock Breeding
+### 2. Population Structure (PCA)
+Folder: `pca_analysis/`
+
+- Principal Component Analysis using SNP genotype data
+- 2D and 3D visualization of genetic structure
+- Comparison between POP1 and POP2
+- SNP filtering and genotype preprocessing
+
+---
+
+### 3. Runs of Homozygosity (ROH)
+Folder: `roh_analysis/`
+
+- Detection of ROH using sliding window approaches
+- Classification of ROH by length (recent vs ancient inbreeding)
+- Estimation of genomic inbreeding coefficient (FROH)
+- Population comparison of inbreeding levels
+
+---
+
+### 4. Visualization
+Folder: `visualization/`
+
+- Manhattan plot (FST selection scan)
+
+---
+
+## 🧪 Data and Methods
+
+- SNP datasets generated using PLINK workflows
+- R packages used:
+  - ggplot2
+  - tidyverse
+  - detectRUNS
+  - vcfR
+  - adegenet
+  - plotly
+
+
+
+## 📁 Repository structure
