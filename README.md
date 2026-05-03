@@ -71,5 +71,28 @@ Folder: `visualization/`
   - plotly
 
 
+---
 
-## 📁 Repository structure
+## 📌 Notes
+
+This portfolio is intended as a demonstration of applied bioinformatics skills for research and industry positions in:
+
+- Animal breeding and genetics
+- Population genomics
+- Bioinformatics analysis pipelines
+
+---
+
+## 📬 Contact
+
+Tatiana Ziegler, PhD  
+Email: zieglertatiana@gmail.com  
+Location: Germany / Argentina
+
+---
+
+## ⚠️ Reproducibility
+
+All scripts are written for transparency and reproducibility.  
+Input data formats are standard PLINK outputs (.ped, .map, .bed, .bim, .fam, .vcf).
+
